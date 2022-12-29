@@ -27,4 +27,10 @@ def check_win(player, computer):
         else:
             return "Rock smashes scissors! You lose."
 
-print(check_win("rock", "paper"))
+choices = get_choices()
+result = check_win(choices["player"], choices["computer"])
+print(result)
+
+# How to access to a dictionary value
+"""choices = {"player": "rock", "computer": "paper"}
+p_choice = choices["player"]"""
