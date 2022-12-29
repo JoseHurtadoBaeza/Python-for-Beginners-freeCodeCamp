@@ -7,10 +7,5 @@ def get_choices():
     choices = {"player": player_choice, "computer": computer_choice}
     return choices
 
-choices = get_choices()
-print(choices)
-
-
-food = ["pizza", "carrots", "eggs"]
-dinner = random.choice(food)
-print(dinner)
+def check_win(player, computer):
+    return [player, computer]
