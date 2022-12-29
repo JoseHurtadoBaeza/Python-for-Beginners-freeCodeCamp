@@ -1,2 +1,1 @@
-name = "Beau"
-age = 39
+name = "Beau"; print(name)
