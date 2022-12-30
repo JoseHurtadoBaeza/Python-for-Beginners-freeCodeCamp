@@ -1,4 +1,11 @@
-#this is a commented line
+number = "test"
+age = int(number)
+print(isinstance(age, int))
 
-name = "Beau" # this is an inline comment
-print(name)
+"""complex for complex numbers
+bool for booleans
+list for lists
+tuple for tuples
+range for ranges
+dict for dictionaries
+set for sets"""
