@@ -1,5 +1,4 @@
-ingredients_purchased = True
-meal_cooked = False
+num1 = 2+3j
+num2 = complex(2,3)
 
-ready_to_serve = all([ingredients_purchased, meal_cooked])
-print(ready_to_serve)
+print(num2.real, num2.imag)
