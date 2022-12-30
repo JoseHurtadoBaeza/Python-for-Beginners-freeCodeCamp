@@ -1,2 +1,2 @@
-name = "Be\\au"
-print(name)
+name = 'Beau is cool'
+print(name[5:])
