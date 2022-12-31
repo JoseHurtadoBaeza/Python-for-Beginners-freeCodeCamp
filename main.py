@@ -1,7 +1,13 @@
 # Functions
 
-def test():
-    age = 8
-    print(age)
+def count():
+    count = 0
 
-test() # 8
+    def increment():
+        nonlocal count
+        count = count + 1
+        print(count)
+
+    increment()
+
+count()
