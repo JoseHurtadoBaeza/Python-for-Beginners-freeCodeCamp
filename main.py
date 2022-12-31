@@ -1,11 +1,6 @@
-#Dictionaries
+# Sets
 
-dog = { "name": "Roger", "age": 8 , "color": "green"}
+set1 = {"Roger", "Syd", "Roger"}
+set2 = {"Roger"}
 
-dog["favorite food"] = "Meat"
-
-del dog['color']
-
-dogCopy = dog.copy()
-
-print(dogCopy)
+print(list(set1))
