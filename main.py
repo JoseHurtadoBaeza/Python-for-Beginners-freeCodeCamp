@@ -1,1 +1,7 @@
-print(round(5.49, 1))
+from enum import Enum
+
+class State(Enum):
+    INACTIVE = 0
+    ACTIVE = 1
+
+print(len(State))
