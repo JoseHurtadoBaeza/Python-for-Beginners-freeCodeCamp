@@ -1,5 +1,12 @@
-items = ["Roger", "bob", "Beau", "Quincy"]
+# Tuples
+names = ("Roger", "Syd", "Beau")
 
-print(sorted(items, key=str.lower))
+names[-1]
+names.index("Roger")
 
-print(items)
+len(names)
+
+print("Roger" in names)
+print(sorted(names))
+newTuple = names + ("Tina", "Quincy")
+print(newTuple)
