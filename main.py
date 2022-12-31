@@ -1,8 +1,7 @@
 # Functions
 
-def hello(name):
-    print('Hello ' + name + '!')
-    return name, "Beau", 8
+def test():
+    age = 8
+    print(age)
 
-print(hello("Syd"))
-
+test() # 8
