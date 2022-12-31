@@ -1,7 +1,2 @@
-from enum import Enum
-
-class State(Enum):
-    INACTIVE = 0
-    ACTIVE = 1
-
-print(len(State))
+age = input("What is your age? ")
+print("Your age is " + age)
