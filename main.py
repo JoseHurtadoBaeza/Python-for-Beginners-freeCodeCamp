@@ -1,4 +1,5 @@
-items = ["Roger", 1, "Syd", True, "Quincy", 7]
+items = ["Roger", "bob", "Beau", "Quincy"]
 
-items[1:1] = ["Test1", "Test2"]
+print(sorted(items, key=str.lower))
+
 print(items)
