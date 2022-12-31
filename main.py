@@ -1,6 +1,8 @@
-# Sets
+# Functions
 
-set1 = {"Roger", "Syd", "Roger"}
-set2 = {"Roger"}
+def hello(name):
+    print('Hello ' + name + '!')
+    return name, "Beau", 8
 
-print(list(set1))
+print(hello("Syd"))
+
