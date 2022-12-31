@@ -1,12 +1,11 @@
-# Tuples
-names = ("Roger", "Syd", "Beau")
+#Dictionaries
 
-names[-1]
-names.index("Roger")
+dog = { "name": "Roger", "age": 8 , "color": "green"}
 
-len(names)
+dog["favorite food"] = "Meat"
 
-print("Roger" in names)
-print(sorted(names))
-newTuple = names + ("Tina", "Quincy")
-print(newTuple)
+del dog['color']
+
+dogCopy = dog.copy()
+
+print(dogCopy)
