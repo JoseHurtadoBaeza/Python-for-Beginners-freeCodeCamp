@@ -1,13 +1,17 @@
 # Functions
 
-def count():
+def counter():
     count = 0
 
     def increment():
         nonlocal count
         count = count + 1
-        print(count)
+        return count
 
-    increment()
+    return increment
 
-count()
+increment = counter()
+
+print(increment()) # 1
+print(increment()) # 2
+print(increment()) # 3
