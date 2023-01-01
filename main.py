@@ -1,5 +1,5 @@
-# Objects
+# Loops
 
-age = 8
-
-age = age + 1
+items = ["beau", "syd", "quincy"]
+for index, item in enumerate(items):
+    print(index, item)
